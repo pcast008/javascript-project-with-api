@@ -266,10 +266,6 @@ input:focus {
     background-color: rgb(41, 41, 41);
 }
 
-.fa-magnifying-glass:hover {
-    opacity: ;
-}
-
 .modal-container {
     display: flex;
     justify-content: center;
