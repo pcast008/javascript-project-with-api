@@ -150,7 +150,7 @@ input:focus {
     flex-direction: column;
     justify-content: center;
     gap: 2.5rem;
-    padding: 2em;
+    padding: 1.37em;
     position: relative;
 }
 
@@ -289,8 +289,9 @@ input:focus {
 
 .modal {
     background: #141414;
-    width: 600px;
+    max-width: 600px;
     border-radius: 10px;
+    margin: 1.37em;
 }
 
 .movie-header {
@@ -347,9 +348,14 @@ input:focus {
     color: #cfd6e1;
 }
 
-.movie-social li:hover, .movie-card-nav-list li:hover, .fa-chevron-down:hover, .fa-circle-xmark:hover, .fa-magnifying-glass:hover {
+.movie-social li:hover {
     transition: color 0.3s;
     color: rgba(255,255,255,0.8);
+}
+
+.movie-card-nav-list li:hover, .fa-chevron-down:hover, .fa-circle-xmark:hover, .fa-magnifying-glass:hover {
+    transition: color 0.3s;
+    color: rgba(180, 180, 180, 0.8); 
 }
 
 h4 {
@@ -434,7 +440,7 @@ h4 {
 .fa-chevron-down:hover::after {
     content: "More info";
     left: 50%;
-    transform: translate(-50%);
+    transform: translate(-70%);
 }
 
 .fa-xmark:hover::after {
